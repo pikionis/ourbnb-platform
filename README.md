@@ -111,7 +111,6 @@ Contexts never import each other's models. They talk through **domain events** o
 refer to each other only by ID:
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E5F5F3', 'primaryTextColor': '#151313', 'primaryBorderColor': '#6CC6BC', 'lineColor': '#DD8F6D', 'edgeLabelBackground': '#F9E8DF', 'fontFamily': 'Geologica, Segoe UI, sans-serif'}}}%%
 flowchart LR
     P[properties] -->|"calendar settings changed"| R[reservations]
     P -->|"property activated"| O[owner portal]
@@ -131,7 +130,6 @@ Every context has the same four layers. Dependencies point inwards only: the dom
 about Django, the database or the outside world.
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E5F5F3', 'primaryTextColor': '#151313', 'primaryBorderColor': '#6CC6BC', 'lineColor': '#DD8F6D', 'edgeLabelBackground': '#F9E8DF', 'fontFamily': 'Geologica, Segoe UI, sans-serif'}}}%%
 flowchart TB
     E["<b>Entrypoints</b><br/>back office, portal pages, scheduled jobs, webhooks"]
     S["<b>Service layer</b><br/>command and event handlers, Unit of Work"]
