@@ -13,5 +13,5 @@ text{font-family:'Geologica',system-ui,'Segoe UI',Arial,sans-serif}
 <text x="468" y="222" font-size="56" font-weight="700" fill="#151313" letter-spacing="-0.5">You have the home.</text>
 <text x="468" y="298" font-size="56" font-weight="700" fill="#151313" letter-spacing="-0.5">We handle the rest.</text>
 <rect x="468" y="314" width="536.0" height="7" rx="3.5" fill="#DD8F6D"/>
-<text x="468" y="378" font-size="22" font-weight="500" fill="#5E5753">ourbnb.gr  ·  powered by KosPM</text>
+<text x="468" y="378" font-size="22" font-weight="500" fill="#5E5753">ourbnb.gr  ·  the OurBnb platform</text>
 </svg>

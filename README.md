@@ -16,8 +16,8 @@
 </p>
 
 OurBnb manages holiday homes for their owners on Airbnb and Booking.com. Behind the public
-website, [ourbnb.gr](https://ourbnb.gr), runs **KosPM**, a property-management platform built for
-the whole operation: owners, homes, calendars, cleaning teams, guests, money and the declarations
+website, [ourbnb.gr](https://ourbnb.gr), runs the **OurBnb platform**, a property-management system built
+for the whole operation: owners, homes, calendars, cleaning teams, guests, money and the declarations
 to AADE, the Greek tax authority.
 
 ---
@@ -48,7 +48,7 @@ A Greek private company (IKE) is the legal manager of every home, under a sublea
 its owner. The listings run on the company's own Airbnb and Booking.com accounts, the platforms pay
 the company, and the company pays each owner every month, after its commission and charges.
 
-KosPM automates the operations behind this model, so that one small team can run many homes:
+The OurBnb platform automates the operations behind this model, so that one small team can run many homes:
 
 1. **Owners join online.** They sign up, describe their home, sign the management contract and
    confirm their bank account. The back office checks each home against an activation checklist.
@@ -86,7 +86,7 @@ KosPM automates the operations behind this model, so that one small team can run
 
 ## Architecture
 
-KosPM is a **modular monolith**: one Django project, one PostgreSQL database and one deploy, split
+The OurBnb platform is a **modular monolith**: one Django project, one PostgreSQL database and one deploy, split
 inside into bounded contexts with strict borders. A small team gets clear boundaries without the
 cost of running microservices. The design follows **domain-driven design** and the **hexagonal
 architecture** (ports and adapters), with the patterns of *Architecture Patterns with Python*
@@ -210,7 +210,7 @@ These rules shape the code as much as the business does:
 
 ## Source code
 
-KosPM is in active development; its first modules run on a staging server. The source code is
+The OurBnb platform is in active development; its first modules run on a staging server. The source code is
 private. For a walkthrough or a demo, get in touch through [my GitHub profile](https://github.com/pikionis).
 
 <p align="center">
